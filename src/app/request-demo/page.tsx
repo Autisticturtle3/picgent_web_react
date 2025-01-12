@@ -9,8 +9,8 @@ const RequestDemoPage: React.FC = () => {
         <div className="bg-lightBg min-h-screen text-textLight flex flex-col items-center py-14 px-4">
         <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Form Section */}
-            <div className="bg-[#11212E] p-8 rounded-lg shadow-lg">
-            <h1 className="text-2xl font-bold mb-6 text-primary">Skyline</h1>
+            <div className="bg-[#f5e8d7] p-8 rounded-lg shadow-lg">
+            <h1 className="text-2xl font-bold mb-6 text-[#5a4033]">Picgent</h1>
             <form className="space-y-6">
                 <div className="grid grid-cols-2 gap-4">
                 <div>
@@ -20,7 +20,7 @@ const RequestDemoPage: React.FC = () => {
                     <input
                     type="text"
                     id="first-name"
-                    className="mt-1 block w-full rounded-md bg-[#1A2B3C] border-none p-2 text-sm focus:ring-primary focus:border-primary"
+                    className="mt-1 block w-full rounded-md bg-[#f5ede6] border-none p-2 text-sm focus:ring-primary focus:border-primary"
                     placeholder="Enter first name"
                     />
                 </div>
@@ -31,7 +31,7 @@ const RequestDemoPage: React.FC = () => {
                     <input
                     type="text"
                     id="last-name"
-                    className="mt-1 block w-full rounded-md bg-[#1A2B3C] border-none p-2 text-sm focus:ring-primary focus:border-primary"
+                    className="mt-1 block w-full rounded-md bg-[#f5ede6] border-none p-2 text-sm focus:ring-primary focus:border-primary"
                     placeholder="Enter last name"
                     />
                 </div>
@@ -43,7 +43,7 @@ const RequestDemoPage: React.FC = () => {
                 <input
                     type="email"
                     id="email"
-                    className="mt-1 block w-full rounded-md bg-[#1A2B3C] border-none p-2 text-sm focus:ring-primary focus:border-primary"
+                    className="mt-1 block w-full rounded-md bg-[#f5ede6] border-none p-2 text-sm focus:ring-primary focus:border-primary"
                     placeholder="Enter email"
                 />
                 </div>
@@ -54,7 +54,7 @@ const RequestDemoPage: React.FC = () => {
                 <input
                     type="text"
                     id="phone"
-                    className="mt-1 block w-full rounded-md bg-[#1A2B3C] border-none p-2 text-sm focus:ring-primary focus:border-primary"
+                    className="mt-1 block w-full rounded-md bg-[#f5ede6] border-none p-2 text-sm focus:ring-primary focus:border-primary"
                     placeholder="Enter phone number"
                 />
                 </div>
@@ -65,7 +65,7 @@ const RequestDemoPage: React.FC = () => {
                 <input
                     type="text"
                     id="company"
-                    className="mt-1 block w-full rounded-md bg-[#1A2B3C] border-none p-2 text-sm focus:ring-primary focus:border-primary"
+                    className="mt-1 block w-full rounded-md bg-[#f5ede6] border-none p-2 text-sm focus:ring-primary focus:border-primary"
                     placeholder="Enter company name"
                 />
                 </div>
@@ -81,10 +81,10 @@ const RequestDemoPage: React.FC = () => {
             {/* Information Section */}
             <div className="flex flex-col justify-center space-y-6">
             <h2 className="text-3xl font-bold leading-tight">
-            Discover How Skyline Transforms AWS Setup
+            Discover How Picgent refasion image search
             </h2>
             <p className="text-gray-400">
-            Unlock the power of automation with Skyline, the AI-driven solution that simplifies AWS setup and management. From resource provisioning to security and scalability, Skyline automates every step with precision, eliminating manual tasks and reducing errors. With real-time adaptation to AWS updates, Skyline ensures your infrastructure stays optimized, compliant, and ready to scale. Experience faster, smarter cloud management today.
+            Picgent doesn't just enhance how you search for photos—it transforms the way you connect with your memories. Powered by cutting-edge AI, Picgent makes finding, organizing, and reliving your moments seamless. Forget the endless scroll and cluttered galleries; with Picgent, your gallery becomes a smart, intuitive space where every photo is just a keyword or voice command away. It’s not just an app—it’s the future of how we treasure and revisit life's most precious memories. Experience the evolution of photo searching today.
             </p>
             <div className="flex items-center">
             </div>

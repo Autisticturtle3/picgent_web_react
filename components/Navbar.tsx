@@ -5,21 +5,18 @@ import Link from "next/link";
 const Navbar: React.FC = () => {
   const handleCareerClick = (event: React.MouseEvent) => {
     event.preventDefault(); // Prevent navigation if the link is just for the alert
-    alert("Please contact us in email");
+    alert("Please contact us in recruiting@picgent.net");
   };
 
   return (
     <nav className="flex justify-between items-center px-8 py-4 bg-darkBg text-textLight">
       <div className="text-2xl font-bold">
         <Link href="./" className="hover:text-primary">
-          Skyline
+          Picgent
         </Link>
       </div>
       <div className="flex space-x-8">
         {/* Add onClick handler to Career link */}
-        <Link href="./About-us" className="hover:text-primary">
-          About us
-        </Link>
         <a
           href="#"
           onClick={handleCareerClick}

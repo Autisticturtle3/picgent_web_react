@@ -3,8 +3,8 @@ const RequestDemoSection: React.FC = () => {
       <section className="bg-darkBg text-textLight py-16">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold">Request a Demo</h2>
-          <p className="text-gray-400 mt-4 max-w-xl mx-auto">
-          Discover the future of cloud automation with Skyline—the AI-powered solution that sets up your AWS environment effortlessly. Experience how Skyline automates your configurations, optimizes workflows, and adapts to the latest AWS updates in real time.
+          <p className="text-[#4f4f4f] mt-4 max-w-xl mx-auto">
+          Discover your past, powered by the future. Picgent redefines how you connect with your memories, making every photo easy to find and relive. With advanced AI technology at your fingertips, your gallery becomes a window to the moments that matter most. The future of photo searching is here—rediscover your memories with Picgent.
           </p>
           <div className="mt-6">
             <a

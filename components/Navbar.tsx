@@ -17,6 +17,9 @@ const Navbar: React.FC = () => {
       </div>
       <div className="flex space-x-8">
         {/* Add onClick handler to Career link */}
+        <Link href="./About-us" className="hover:text-primary">
+          About us
+        </Link>
         <a
           href="#"
           onClick={handleCareerClick}

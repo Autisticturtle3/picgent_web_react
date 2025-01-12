@@ -1,73 +1,73 @@
 const HowItWorksSection: React.FC = () => {
   const steps = [
     {
-      title: "Automated Screen Control",
+      title: "AI-Powered Search",
       features: [
         {
-          title: "Human-Like Interaction",
+          title: "Find Any Photo, Instantly",
           description:
-            "The AI mimics user actions, navigating AWS, clicking buttons, and configuring settings seamlessly.",
+            "Tired of scrolling endlessly to find that one photo? With Picgent's AI-Powered Search, you can locate any image in your gallery in seconds. Just type or speak a keyword—like \"sunset,\" \"wedding,\" or \"puppy\"—and our advanced AI does the rest.",
         },
         {
-          title: "Error-Free Execution",
+          title: "Search Smarter, Not Harder",
           description:
-            "Advanced algorithms ensure accurate, error-free configurations every time.",
+            "Picgent transforms your gallery into an intelligent library. Our AI recognizes faces, objects, and moments, so you can effortlessly search for photos by description. Whether it's \"family reunion\" or \"blue dress,\" finding memories has never been this easy.",
         },
         {
-          title: "Secure Operations",
+          title: "Your Gallery, Your Keywords",
           description:
-            "All actions are encrypted, safeguarding your credentials and maintaining cloud security.",
+            "Picgent puts the power of search in your hands. Simply describe the moment you're looking for, and our AI will retrieve it in no time. From vacations to celebrations, your memories are just a keyword away.",
         },
       ],
     },
     {
-      title: "Dynamic Configuration Adjustment",
+      title: "Contextual Photo Recognition",
       features: [
         {
-          title: "Adaptive Error Handling",
+          title: "Search Beyond the Surface",
           description:
-            "The AI detects and resolves configuration issues in real time, ensuring smooth and uninterrupted setup processes.",
+            "With Contextual Photo Recognitio0n, Picgent doesn't just see objects—it understands moments. Whether it's “sunset at the beach” or “candid family dinner,” our AI matches your search with the context of your photos for spot-on results.",
         },
         {
-          title: "Real-Time Resource Optimization",
+          title: "Find Photos That Tell a Story",
           description:
-            "It dynamically adjusts settings, such as instance types or storage configurations, based on workload requirements to maximize performance and minimize costs.",
+            "Looking for more than just a snapshot? Picgent's Contextual Photo Recognition captures the essence of your moments, analyzing elements like activities, places, and people. Simply describe the memory, and Picgent brings it to life.",
         },
         {
-          title: "Intelligent Decision-Making",
+          title: "Rediscover Hidden Moments",
           description:
-            "Using built-in logic and machine learning, the AI makes adjustments that align with best practices, adapting to your specific needs without manual intervention.",
+            "Picgent's Contextual Photo Recognition dives deep into your gallery to uncover specific memories. Whether it's “picnic under the cherry blossoms” or “New Year's fireworks,” you'll find photos you forgot you had, effortlessly.",
         },
       ],
     },
     {
-      title: "Real-Time AWS Update Integration",
+      title: "Event-Based Organization",
       features: [
         {
-          title: "Continuous Monitoring",
+          title: "Your Memories, Perfectly Organized",
           description:
-            "We actively tracks AWS updates, including new features, service changes, and API revisions, ensuring the agent is always aware of the latest developments.",
+            "Picgent takes the hassle out of sorting photos by automatically grouping them into meaningful events. From birthdays to vacations, your gallery is transformed into a timeline of your life's special moments, making it easy to relive your favorite memories.",
         },
         {
-          title: "Automatic Workflow Adjustments",
+          title: "Rediscover Moments That Matter",
           description:
-            "When AWS introduces changes, the AI modifies its workflows in real time to incorporate new capabilities or adapt to updated requirements.",
+            "Say goodbye to messy galleries. With Event-Based Organization, Picgent categorizes your photos by events like holidays, celebrations, and milestones. Now, you can effortlessly find and revisit the moments that mean the most to you.",
         },
         {
-          title: "Seamless Compatibility",
+          title: "Turn Chaos into Clarity",
           description:
-            "The system ensures all configurations remain functional, leveraging the latest AWS updates without disrupting your existing setup or services.",
+            "No more endless scrolling! Picgent's Event-Based Organization smartly arranges your photos into events, so you can browse by “family reunion” or “summer trip” instead of hunting for individual pictures. Your memories, made simple.",
         },
       ],
     },
   ];
 
   return (
-    <section className="bg-lightBg text-textLight py-20 bg-cover bg-center"
-    // style={{ backgroundImage: "url('./Howitwork.jpg')" }}
+    <section className="bg-lightBg text-textLight py-20 bg-cover bg-bottom"
+     style={{ backgroundImage: "url('./Howitwork.jpg')" }}
     >
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold">How It Works</h2>
+        <h2 className="text-3xl text-white font-bold">How It Works</h2>
         <div className="flex justify-center mt-4">
           <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-3xl text-lightBg shadow-lg">
             💡 {/* Replace with an actual icon */}
@@ -78,17 +78,17 @@ const HowItWorksSection: React.FC = () => {
         {steps.map((step, index) => (
           <div
             key={index}
-            className="p-6 bg-[#11212E] rounded-md shadow-md flex flex-col items-start"
+            className="p-6 bg-[#f5e8d7] rounded-md shadow-md flex flex-col items-start"
           >
-            <h3 className="text-lg font-bold mb-4 text-primary">
+            <h3 className="text-lg font-bold mb-4 text-[#5a4033]">
               {step.title}
             </h3>
             {step.features.map((feature, featureIndex) => (
               <div key={featureIndex} className="mb-4">
-                <h4 className="text-sm font-semibold mb-1">
+                <h4 className="text-sm text-[#000000] font-semibold mb-1">
                   {feature.title}
                 </h4>
-                <p className="text-sm text-gray-300">{feature.description}</p>
+                <p className="text-sm text-[#4f4f4f]">{feature.description}</p>
               </div>
             ))}
           </div>

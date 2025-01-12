@@ -2,27 +2,27 @@ const WorkflowSection: React.FC = () => {
     const workflows = [
       {
         icon: "⚙️",
-        title: "Streamlined AWS Setup, AI-Driven Precision",
+        title: "Find Any Photo, Fast",
         description:
-          "Let AI handle your AWS configuration while you sit back. From EC2 to S3, our intelligent system automates it all with unmatched accuracy.",
+          "With Picgent, searching your gallery is effortless. Whether it's a sunset, a birthday, or a smiling face, our AI-powered app finds it instantly. Stop scrolling—start finding!",
       },
       {
         icon: "🚀",
-        title: "Accelerate Cloud Deployment with AI Control",
+        title: "Your Memories, Instantly Found",
         description:
-          "Transform how you manage AWS. Our AI takes the wheel, configuring your infrastructure in record time without lifting a finger.",
+          "Picgent uses smart AI to search your gallery by objects, people, places, or events. Just type or speak, and Picgent brings your memories to life in seconds.",
       },
       {
         icon: "⏱️",
-        title: "Effortless Cloud Management at Your Fingertips",
+        title: "Simplify Your Photo Search",
         description:
-          "Save hours of manual work. Our AI-driven screen control sets up your AWS environment perfectly—every time.",
+          "Lost in a sea of photos? Picgent is your AI-powered solution for finding the exact moment you're looking for. Search smarter, relive faster.",
       },
       {
         icon: "✨",
-        title: "Smarter AWS Automation with Cutting-Edge AI",
+        title: "Turn Your Gallery into Magic",
         description:
-          "Experience the future of cloud setup. With AI controlling your screen, you'll achieve seamless AWS deployment and management like never before.",
+          "Picgent transforms how you find photos. Whether it's a pet, a party, or your last vacation, let AI pinpoint your memories with ease. Rediscover your moments with Picgent!",
       },
     ];
   
@@ -42,17 +42,17 @@ const WorkflowSection: React.FC = () => {
         </video>
       </div>
         <h2 className="text-center text-3xl font-bold mb-8">
-          How leading enterprises use <span className="text-primary">Skyline&apos;</span> AWS agent:
+          How our customers use <span className="text-primary">Picgent</span>:
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-8">
           {workflows.map((workflow, index) => (
             <div
               key={index}
-              className="p-6 bg-[#11212E] rounded-md shadow-md flex flex-col items-center text-center"
+              className="p-6 bg-[#f5e8d7] rounded-md shadow-md flex flex-col items-center text-center"
             >
               <div className="text-4xl mb-4">{workflow.icon}</div>
-              <h3 className="text-lg font-semibold mb-2">{workflow.title}</h3>
-              <p className="text-sm text-gray-300">{workflow.description}</p>
+              <h3 className="text-lg text-[#5a4033] font-semibold mb-2">{workflow.title}</h3>
+              <p className="text-sm text-[#4f4f4f]">{workflow.description}</p>
             </div>
           ))}
         </div>

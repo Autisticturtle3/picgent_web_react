@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Skyline",
-  description: "AWS setup agent",
+  title: "Picgent",
+  description: "Image search agent",
 };
 
 export default function RootLayout({

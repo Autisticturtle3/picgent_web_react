@@ -84,7 +84,7 @@ const RequestDemoPage: React.FC = () => {
             Discover How Picgent refasion image search
             </h2>
             <p className="text-gray-400">
-            Picgent doesn't just enhance how you search for photos—it transforms the way you connect with your memories. Powered by cutting-edge AI, Picgent makes finding, organizing, and reliving your moments seamless. Forget the endless scroll and cluttered galleries; with Picgent, your gallery becomes a smart, intuitive space where every photo is just a keyword or voice command away. It’s not just an app—it’s the future of how we treasure and revisit life's most precious memories. Experience the evolution of photo searching today.
+            Picgent doesn&apos;t just enhance how you search for photos—it transforms the way you connect with your memories. Powered by cutting-edge AI, Picgent makes finding, organizing, and reliving your moments seamless. Forget the endless scroll and cluttered galleries; with Picgent, your gallery becomes a smart, intuitive space where every photo is just a keyword or voice command away. It’s not just an app—it’s the future of how we treasure and revisit life&apos;s most precious memories. Experience the evolution of photo searching today.
             </p>
             <div className="flex items-center">
             </div>

@@ -16,7 +16,7 @@ const TermsAndConditions: React.FC = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
           <p>
-            By accessing or using the Picgent website, mobile application, or related services (the "Service"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree, please discontinue use of the Service immediately.
+            By accessing or using the Picgent website, mobile application, or related services (the &quot;Service&quot;), you agree to be bound by these Terms and Conditions (&quot;Terms&quot;). If you do not agree, please discontinue use of the Service immediately.
           </p>
         </section>
 
@@ -92,7 +92,7 @@ const TermsAndConditions: React.FC = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">9. Disclaimer of Warranties</h2>
           <p>
-            The Service is provided "as is" without warranties of any kind. To the fullest extent permitted by law, we disclaim all warranties, including fitness for a particular purpose.
+            The Service is provided &quot;as is&quot; without warranties of any kind. To the fullest extent permitted by law, we disclaim all warranties, including fitness for a particular purpose.
           </p>
         </section>
 

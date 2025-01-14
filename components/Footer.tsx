@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
     return (
       <footer className="bg-darkBg text-gray-400 py-8">
         <div className="text-center">
-          <p>© 2024 Skyline</p>
+          <p>© 2024 Picgent</p>
           <div className="flex justify-center space-x-4 mt-2">
           <Link
             href="./term-and-service"
